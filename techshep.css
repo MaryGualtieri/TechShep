@@ -3,25 +3,28 @@ header {
     padding-bottom: 3rem;
 }
 
-.GWB {
-  background-image: url('./Images/GWB.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 20%;
-
-}
-
-.Landmark {
-  background-image: url('./Images/GWV2.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 20%;
-}
-
 .Remodeled {
-    padding: 20%;
+    padding: 10%;
+}
+
+p#first {
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    background: gray;
+    font-size: 3em;
+}
+
+p#background {
+    background: gray;
+}
+
+p#third {
+    margin: auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4em;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 1px 1px white;
 }
 
 footer {
