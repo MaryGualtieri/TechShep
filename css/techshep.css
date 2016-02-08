@@ -1,3 +1,7 @@
+p {
+    font-family: 'Shadows Into Light', cursive;
+}
+
 header {
     background-color: #d7d7d7;
     padding-bottom: 3rem;
@@ -8,15 +12,12 @@ header {
 }
 
 p#first {
-    font-family: 'Shadows Into Light', cursive;
     color: white;
     font-size: 3em;
     text-shadow: 3px 3px #000
 }
 
 p#third {
-    /*margin: auto;*/
-    font-family: 'Shadows Into Light', cursive;
     font-size: 3em;
     font-weight: 600;
     text-align: center;
@@ -26,13 +27,13 @@ p#third {
 
 .Remodeled {
   text-align: center;
-  font-family: 'Shadows Into Light', cursive;
   font-size: 2em;
 }
 
 button#click {
     border: 2px solid;
     border-radius: 5px;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 footer {
