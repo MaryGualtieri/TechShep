@@ -42,21 +42,20 @@ function findmatch(array) {
             comparearray.push( { phrase: phrase } );
             finalarray.push(comparearray);
             }
-            // console.log(comparearray);
 
 
         if( index === 0 ) { index = tempindex } else {
             if( tempindex < index ) {
                 index = tempindex;
                 matcharray.push(comparearray);
-                // console.log(matcharray);
                 matchingString = (datafull.slice( (comparearray[0].index-1), (comparearray[comparearray.length-3].index-1))).join(" ");
 
             }
         }
           comparearray = [];
           temparray = [];
-        for(j=counter; j < arr2.length; j++) {
+
+            for(j=counter; j < arr2.length; j++) {
 
             var currentword = arr2[j].word;
             if (temparray.indexOf(currentword) == -1 ) {
@@ -71,4 +70,6 @@ function findmatch(array) {
      return matchingString;
 }
 
-console.log(findmatch(ran));
+function myFunction() {
+    alert(findmatch(ran));
+}
