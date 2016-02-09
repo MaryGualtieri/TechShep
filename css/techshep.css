@@ -75,6 +75,14 @@ footer {
   width: 90%;
 }
 
+.container .row {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+
+/*Media Queries*/
+
 @media only screen and (min-width: 601px) {
   .container {
     width: 85%;
@@ -85,9 +93,4 @@ footer {
   .container {
     width: 70%;
   }
-}
-
-.container .row {
-  margin-left: -0.75rem;
-  margin-right: -0.75rem;
 }
